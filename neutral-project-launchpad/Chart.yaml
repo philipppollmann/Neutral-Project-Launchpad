@@ -1,0 +1,4 @@
+apiVersion: v2
+name: neutral-project-launchpad
+version: 0.1.0
+description: a neutral launchpad for projects
