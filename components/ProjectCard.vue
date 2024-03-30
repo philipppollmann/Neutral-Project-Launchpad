@@ -1,13 +1,25 @@
 <script setup lang="ts">
-
+import { defineProps } from 'vue'
+const props = defineProps({
+  title: String,
+  description: String,
+  icon: String,
+  to: String,
+  target: String,
+  iconSrc: String,
+})
 </script>
 
 <template>
   <UPageCard
-      title="Tailwind CSS"
-      description="Add Tailwind CSS to your Nuxt application in seconds with PurgeCSS included for minimal CSS."
-      icon="i-simple-icons-tailwindcss"
-  />
+      :title="title"
+      :description="description"
+      :icon="icon"
+      :to="to"
+      :target="target"
+  >
+    <img :src="iconSrc" class="w-1/4 justify-center">
+  </UPageCard>
 </template>
 
 <style scoped>

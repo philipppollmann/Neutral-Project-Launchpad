@@ -1,24 +1,14 @@
+<script lang="ts">
+
+</script>
+
 <template>
   <UCard>
     <template #header>
-      <AppHeader>
-
-      </AppHeader>
+      <AppHeader/>
     </template>
 
-    <div>
-      <UDashboardCard
-          title="Recent sales"
-          description="You made 265 sales this month."
-          icon="i-heroicons-chart-bar"
-      >
-        <UProgress />
-      </UDashboardCard>
-    </div>
-
-    <div>
-      <ProjectCard></ProjectCard>
-    </div>
+    <ProjectLaunchPad/>
 
     <template #footer>
       <AppFooter>
@@ -29,4 +19,5 @@
 </template>
 <script setup lang="ts">
 import Button from "~/components/Button.vue";
+import ProjectLaunchPad from "~/components/ProjectLaunchPad.vue";
 </script>
