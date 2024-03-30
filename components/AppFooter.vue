@@ -24,7 +24,3 @@ const links = [{
     </template>
   </UFooter>
 </template>
-
-<style scoped>
-
-</style>
