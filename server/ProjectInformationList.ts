@@ -2,6 +2,30 @@ import {ProjectInformation} from "~/model/ProjectInformation";
 
 export function getAllProjects(): ProjectInformation[] {
     return [
+        new ProjectInformation( // LaunchPad
+            "LaunchPad",
+            "",
+            "",
+            "",
+            "",
+            "https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/integrations/nuxt/colored-logo.png"
+        ),
+        new ProjectInformation( // ArgoCD
+            "ArgoCD",
+            "",
+            "",
+            "",
+            "",
+            "https://miro.medium.com/v2/resize:fit:1400/1*An25ihShzJkhL3jAwUaWfg.png"
+        ),
+        new ProjectInformation( // KeyCloak
+            "KeyCloak",
+            "",
+            "",
+            "",
+            "",
+            "https://static-00.iconduck.com/assets.00/keycloak-icon-2048x2048-5ge904so.png"
+        ),
         new ProjectInformation( // Traefik
             "Traefik",
             "A reversed proxy",

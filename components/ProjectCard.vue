@@ -18,9 +18,12 @@ const props = defineProps({
       :to="to"
       :target="target"
   >
-    <img :src="iconSrc" class="w-1/4 justify-center">
+    <div class="flex justify-center items-center h-full">
+      <img :src="iconSrc" class="w-1/4">
+    </div>
   </UPageCard>
 </template>
+
 
 <style scoped>
 
