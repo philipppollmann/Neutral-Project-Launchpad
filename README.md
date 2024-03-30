@@ -24,3 +24,4 @@ npm run preview
 
 npm run build
 ```
+![Preview](./assets/img/Preview.png)
